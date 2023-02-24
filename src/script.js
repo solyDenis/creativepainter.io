@@ -16,7 +16,7 @@ searchInputEl.addEventListener('keypress', (eve)=> {
             body: JSON.stringify({
 
                 prompt: prompt,
-                n: 4,
+                n: 1,
                 size: "1024x1024"
 
             })
