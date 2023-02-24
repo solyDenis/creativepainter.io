@@ -14,7 +14,7 @@ searchInputEl.addEventListener('keypress', (eve)=> {
             body: JSON.stringify({
 
                 prompt: "cat eating",
-                n: 4,
+                n: 1,
                 size: "1024x1024"
 
             })
@@ -36,6 +36,8 @@ searchInputEl.addEventListener('keypress', (eve)=> {
                 imageDisplayEl.appendChild(dv);
 
             })
+
         }
+
 
 })

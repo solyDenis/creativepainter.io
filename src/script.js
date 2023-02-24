@@ -1,3 +1,5 @@
+import config from "./config.js"
+
 const searchInputEl = document.querySelector("#input_area")
 const imageDisplayEl = document.querySelector("#images")
 
@@ -11,7 +13,7 @@ searchInputEl.addEventListener('keypress', (eve)=> {
             headers: {
 
                 "Content-Type": "application/json",
-                "Authorization": "Bearer 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",
+                "Authorization": "Bearer ${config.API_KEY}",
             },
             body: JSON.stringify({
 
