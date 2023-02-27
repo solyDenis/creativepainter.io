@@ -12,8 +12,9 @@ searchInputEl.addEventListener('keypress', (eve)=> {
             method: 'POST',
             headers: {
 
-                "Content-Type": "application/json",
-                "Authorization": "Bearer ${config.API_KEY}",
+                'Content-Type': `application/json`,
+                'Authorization': `Bearer ${config.API_KEY}`,
+
             },
             body: JSON.stringify({
 
